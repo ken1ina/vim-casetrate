@@ -54,9 +54,6 @@ function! s:joinMixed(words)
 endfunction
 
 function! s:joinLisp(words)
-    if !&lisp
-        throw 'Lisp mode disabled'
-    endif
     "Downcase all words, join with minus
     return join(map(copy(a:words), 'tolower(v:val)'), '-')
 endfunction

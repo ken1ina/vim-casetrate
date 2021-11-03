@@ -19,8 +19,7 @@ Use the `:Casetrate` command to change the case of the word under the cursor.
 * "snake"  - Change the word under the cursor to snake_case.
 * "upper"  - Change the word under the cursor to UPPER_CASE.
 * "mixed"  - Change the word under the cursor to Mixed_Case.
-* "lisp"   - Change the word under the cursor to lisp-case(only works in
-             'lisp' mode).
+* "lisp"   - Change the word under the cursor to lisp-case.
 
 KEYMAPS
 =======
